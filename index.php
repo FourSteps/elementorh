@@ -164,7 +164,7 @@
             <div class="fact-two-inner">
                 <div class="fact-boxes row justify-content-between align-items-center" style="padding-left: 50px;">
                     
-                    <form action="#">
+                    <form action="mail.php" method="POST">
                         <div class="row">
                             <div class="col-lg-12" style="top: -40px; color: white;">
                                 <h1 style="color: white;">Está procurando um novo talento para a sua empresa?</h1>
@@ -172,19 +172,19 @@
                             </div>
                             <div class="col-lg-3">
                                 <div class="input-group mb-30">
-                                    <input type="text" placeholder="Seu nome">
+                                    <input type="text" placeholder="Seu nome" name="nome" required>
                                     <span class="icon"><i class="far fa-user-circle"></i></span>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="input-group mb-30">
-                                    <input type="email" placeholder="Seu e-mail">
+                                    <input type="email" placeholder="Seu e-mail" name="email" required>
                                     <span class="icon"><i class="far fa-envelope-open"></i></span>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="input-group mb-30">
-                                    <input type="text" placeholder="Seu telefone">
+                                    <input type="text" placeholder="Seu telefone" name="telefone" required>
                                     <span class="icon"><i class="far fa-phone"></i></span>
                                 </div>
                             </div>

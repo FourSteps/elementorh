@@ -1562,29 +1562,29 @@
                             <h2 class="title">Tem alguma dúvida? Envie sua mensagem!</h2>
                         </div>
 
-                        <form action="#">
+                        <form action="mail.php" method="POST">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="input-group mb-30">
-                                        <input type="text" placeholder="Nome completo">
+                                        <input type="text" placeholder="Nome completo" name="nome" required>
                                         <span class="icon"><i class="far fa-user-circle"></i></span>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="input-group mb-30">
-                                        <input type="email" placeholder="Seu melhor e-mail">
+                                        <input type="email" placeholder="Seu melhor e-mail" name="email" required>
                                         <span class="icon"><i class="far fa-envelope-open"></i></span>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="input-group mb-30">
-                                        <input type="text" placeholder="WhatsApp">
+                                        <input type="text" placeholder="WhatsApp" name="telefone" required>
                                         <span class="icon"><i class="far fa-phone"></i></span>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="input-group textarea mb-30">
-                                        <textarea placeholder="Sua mensagem..."></textarea>
+                                        <textarea placeholder="Sua mensagem..." name="mensagem" required></textarea>
                                         <span class="icon"><i class="far fa-pencil"></i></span>
                                     </div>
                                 </div>
