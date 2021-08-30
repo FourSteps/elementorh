@@ -1,128 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <!--====== Required meta tags ======-->
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!--====== Title ======-->
-    <title> Elemento RH - Contato</title>
-    <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="img/png" />
-    <!--====== Animate Css ======-->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <!--====== Bootstrap css ======-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--====== Fontawesome css ======-->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <!--====== Flaticon css ======-->
-    <link rel="stylesheet" href="assets/css/flaticon.css" />
-    <!--====== Magnific Popup css ======-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--====== Slick  css ======-->
-    <link rel="stylesheet" href="assets/css/slick.css" />
-    <!--====== Jquery ui ======-->
-    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
-    <!--====== Style css ======-->
-    <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-
-<body>
-    <!--[if lte IE 9]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-	<![endif]-->
-
-    <!--====== Preloader ======-->
-    <div id="preloader">
-        <div class="loader-cubes">
-            <div class="loader-cube1 loader-cube"></div>
-            <div class="loader-cube2 loader-cube"></div>
-            <div class="loader-cube4 loader-cube"></div>
-            <div class="loader-cube3 loader-cube"></div>
-        </div>
-    </div>
-
-
-    <!--====== Header ======-->
-    <header class="header-two sticky-header">
-        <!-- Header Topbar -->
-        <div class="header-topbar">
-            <div class="container-fluid container-1600">
-                <div class="header-topbar-inner d-md-flex align-items-center justify-content-between">
-                    <!-- Contact Info -->
-                    <ul class="contact-info">
-                        <li>
-                            <a href="#"><i class="far fa-phone"></i>(16) 3419-6096 | (16) 99395-1240</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="far fa-envelope-open"></i>negocios@grupoelementorh.com.br</a>
-                        </li>
-                        <!-- <li>
-                            <i class="far fa-map-marker-alt"></i>Atendimento das 9h às 18h de segunda a sexta
-                        </li> -->
-                    </ul>
-                    <!-- Social Links -->
-                    <ul class="social-links">
-                        <li>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Header Menu  -->
-        <div class="header-nav sticky-nav">
-            <div class="container-fluid container-1600">
-                <div class="nav-container">
-                    <!-- Site Logo -->
-                    <div class="site-logo">
-                        <a href="index-2.html"><img src="assets/img/logo-2.png" style="max-width: 200px;" alt="Logo"></a>
-                    </div>
-
-                    <!-- Main Menu -->
-                    <div class="nav-menu d-lg-flex align-items-center">
-
-                        <!-- Navbar Close Icon -->
-                        <div class="navbar-close">
-                            <div class="cross-wrap"><span></span><span></span></div>
-                        </div>
-
-                        <!-- Mneu Items -->
-                        <div class="menu-items">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="sobre.html">Sobre nós</a></li>
-                                <li><a href="empresas.html">Empresas</a></li>
-                                <li><a href="candidatos.html">Candidatos</a></li>
-                                <li><a href="contato.html">Contato</a></li>
-                            </ul>
-                        </div>
-                        <!-- Pushed Item -->
-                        <div class="nav-pushed-item"></div>
-                    </div>
-
-                    <!-- Navbar Extra  -->
-                    <!-- <div class="navbar-extra d-flex align-items-center">
-                        <div class="offcanvas-toggler">
-                            <span><span></span><span></span><span></span></span>
-                        </div>
-                        <div class="navbar-toggler">
-                            <span></span><span></span><span></span>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--====== Header ======-->
+<?php
+    require 'requires/header.html';
+?>
 
 
 
@@ -132,7 +10,7 @@
             <div class="breadcrumb-text">
                 <h1 class="page-title">Contato</h1>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>Contato</li>
                 </ul>
             </div>
@@ -164,21 +42,21 @@
                             <ul>
                                 <li class="phone">
                                     <a href="tel:+551634196096"><i class="far fa-phone"></i>(16) 3419-6096</a>
-                                    <a href="tel:+5516993951240"><i class="far fa-phone"></i>(16) 99395-1240</a>
+                                    <a href="https://wa.me/+5516993951240"><i class="far fa-phone"></i>(16) 99395-1240</a>
                                 </li>
-                                <li><i class="far fa-info"></i>Atendimento das 9h às 18h de segunda a sexta</li>
+                                <li><i class="far fa-info"></i>Atendimento das 9h às 18h de segunda à sexta</li>
                                 <li><i class="far fa-envelope-open"></i><a href="mailto:negocios@grupoelementorh.com.br">negocios@grupoelementorh.com.br</a></li>
                                 <li>
-                                    <a href="#" class="main-btn" style="color: white;">Contato candidato</a></li>
+                                    <a href="https://jobs.quickin.io/grupoelementorh/apply" class="main-btn" style="color: white;">Contato candidato</a></li>
                             </ul>
 
                             <ul class="social-links">
-                                <li style="float: left;"><a href="#"><i class="fab fa-facebook-f" style="font-size: 35px;"></i></a></li>
-                                <li style="float: left;"><a href="#"><i class="fab fa-instagram" style="font-size: 35px;"></i></a></li>
-                                <li style="float: left;"><a href="#"><i class="fab fa-twitter" style="font-size: 35px;"></i></a></li>
-                                <li style="float: left;"><a href="#"><i class="fab fa-linkedin" style="font-size: 35px;"></i></a></li>
-                                <li style="float: left;"><a href="#"><i class="fab fa-youtube" style="font-size: 35px;"></i></a></li>
-                                <li style="float: left;"><a href="#"><i class="fab fa-whatsapp" style="font-size: 35px;"></i></a></li>
+                                <li style="float: left;"><a href="https://www.facebook.com/elementorhoficial"><i class="fab fa-facebook-f" style="font-size: 35px;"></i></a></li>
+                                <li style="float: left;"><a href="https://www.instagram.com/elementorhoficial/"><i class="fab fa-instagram" style="font-size: 35px;"></i></a></li>
+                                <!-- <li style="float: left;"><a href="#"><i class="fab fa-twitter" style="font-size: 35px;"></i></a></li> -->
+                                <li style="float: left;"><a href="https://www.linkedin.com/company/grupo-elemento-rh/"><i class="fab fa-linkedin" style="font-size: 35px;"></i></a></li>
+                                <li style="float: left;"><a href="https://www.youtube.com/channel/UCzvPTwJgdgyYZHTdMmzyvcQ"><i class="fab fa-youtube" style="font-size: 35px;"></i></a></li>
+                                <li style="float: left;"><a href="https://wa.me/+5516993951240"><i class="fab fa-whatsapp" style="font-size: 35px;"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -982,7 +860,7 @@
                             </div>
                             <div id="collapse39" class="collapse" data-parent="#faqAccordion">
                                 <div class="card-body">
-                                    Não trabalhamos com distinção de talentos, isso quer dizer que não temos vagas destinadas apenas para pessoas com deficiência ou necessidades especiais, todas as nossas vagas são para todos. Então aproveite e fique à vontade para se cadastrar em todas as oportunidades que tiver interesse! Para verificar as oportunidades Clique aqui
+                                    Não trabalhamos com distinção de talentos, isso quer dizer que não temos vagas destinadas apenas para pessoas com deficiência ou necessidades especiais, todas as nossas vagas são para todos. Então aproveite e fique à vontade para se cadastrar em todas as oportunidades que tiver interesse! Para verificar as oportunidades <a href="https://jobs.quickin.io/grupoelementorh/jobs">Clique aqui</a>
                                 </div>
                             </div>
                         </div>
@@ -1043,7 +921,7 @@
                             <div id="collapse42" class="collapse" data-parent="#faqAccordion">
                                 <div class="card-body">
                                     Trabalhamos com diferentes plataformas para gerenciar suas vagas e seus processos seletivos.
-                                    <br>Para consultar o status de sua participação em processos seletivos na plataforma ATS compleo clique aqui com seu login e senha e localize a opção “Ver seu histórico e acompanhar processos seletivos” e em seguida clique em “Histórico”. Você terá acesso a todas as mensagens que recebeu em cada um dos processos que está inscrito.]                            
+                                    <br>Para consultar o status de sua participação em processos seletivos na plataforma ATS compleo <a href="https://jobs.quickin.io/grupoelementorh/apply">clique aqui</a> com seu login e senha e localize a opção “Ver seu histórico e acompanhar processos seletivos” e em seguida clique em “Histórico”. Você terá acesso a todas as mensagens que recebeu em cada um dos processos que está inscrito.]                            
                                 </div>
                             </div>
                         </div>
@@ -1060,7 +938,7 @@
                             </div>
                             <div id="collapse43" class="collapse" data-parent="#faqAccordion">
                                 <div class="card-body">
-                                    Para o envio do seu currículo ser confirmado, precisamos que você preencha as informações da sua graduação. Utilizamos em nosso Cadastro Básico o padrão de classificação do Guia do Estudante que agrupou cursos com grades curriculares iguais ou parecidas em um único nome, já que temos no Brasil, mais de 30.000 nomes de cursos diferentes! Caso tenha dificuldades em encontrar seu curso ou faculdade em nosso cadastro, envie uma mensagem pelo nosso formulário clique aqui respondendo as seguintes perguntas:
+                                    Para o envio do seu currículo ser confirmado, precisamos que você preencha as informações da sua graduação. Utilizamos em nosso Cadastro Básico o padrão de classificação do Guia do Estudante que agrupou cursos com grades curriculares iguais ou parecidas em um único nome, já que temos no Brasil, mais de 30.000 nomes de cursos diferentes! Caso tenha dificuldades em encontrar seu curso ou faculdade em nosso cadastro, envie uma mensagem pelo nosso formulário <a href="https://jobs.quickin.io/grupoelementorh/apply">clique aqui</a> respondendo as seguintes perguntas:
                                     <br><br>
                                     <br>• A sua graduação é bacharelado, licenciatura ou tecnológica?
                                     <br>• Qual curso você faz?
@@ -1107,7 +985,7 @@
                                 <div class="card-body">
                                     O momento da inscrição é muito importante e merece toda a sua atenção pois é nesse momento que você vai poder realizar alterações na sua ficha.  As fichas são bloqueadas para alteração após término de sua inscrição. Após esse período, você deve seguir os seguintes passos para alterar informações:
                                     <br><br>
-                                    <br>1. Clique aqui e realize seu login e senha
+                                    <br>1. <a href="https://jobs.quickin.io/grupoelementorh/">Clique aqui</a> e realize seu login e senha
                                     <br>2. Clique em histórico e entre com sua identificação e senha.
                                     <br><br>
                                     Em seu login, será possível alterar seus dados pessoais.                            
@@ -1161,7 +1039,7 @@
                             </div>
                             <div id="collapse48" class="collapse" data-parent="#faqAccordion">
                                 <div class="card-body">
-                                    Para se cadastrar e conseguir se inscrever nas vagas da Elemento RH, clique aqui.
+                                    Para se cadastrar e conseguir se inscrever nas vagas da Elemento RH, <a href="https://jobs.quickin.io/grupoelementorh/apply">clique aqui</a>.
                                 </div>
                             </div>
                         </div>
@@ -1583,7 +1461,7 @@
                             </div>
                             <div id="collapse70" class="collapse" data-parent="#faqAccordion">
                                 <div class="card-body">
-                                    Fique tranquilo, nós temos como te ajudar. Primeiro temos que entender qual foi o problema que ocorreu com você. Clique aqui e acesse o formulário de e-mail, nele você consegue explicar para a gente exatamente o que houve e assim podemos ajudar a solucionar os problemas.
+                                    Fique tranquilo, nós temos como te ajudar. Primeiro temos que entender qual foi o problema que ocorreu com você. <a href="contato.php">Clique aqui</a> e acesse o formulário de e-mail, nele você consegue explicar para a gente exatamente o que houve e assim podemos ajudar a solucionar os problemas.
                                 </div>
                             </div>
                         </div>
@@ -1603,7 +1481,7 @@
                                 <div class="card-body">
                                     Trabalhamos com um grande número de candidatos nos processos seletivos, os testes acabam sendo uma ajuda e tanto para avaliar as habilidades de cada um.
                                     <br>
-                                    Por isso, estamos sempre buscando aperfeiçoá-los, sendo assim, sua opinião é fundamental para nós. Caso queria fazer alguma sugestão ou nos comunicar algo  sobre os testes, clique aqui e envie uma mensagem!                            
+                                    Por isso, estamos sempre buscando aperfeiçoá-los, sendo assim, sua opinião é fundamental para nós. Caso queria fazer alguma sugestão ou nos comunicar algo  sobre os testes, <a href="contato.php">clique aqui</a> e envie uma mensagem!                            
                                 </div>
                             </div>
                         </div>
@@ -1723,7 +1601,7 @@
         <div class="container-fluid container-1600">
             <div class="contact-map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59180.98090969927!2d-47.896057299999995!3d-22.01853985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b87726bb9dd181%3A0xd9d7d71505999bc!2zU8OjbyBDYXJsb3MsIFNQ!5e0!3m2!1spt-BR!2sbr!4v1625078610695!5m2!1spt-BR!2sbr"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.6342566505841!2d-47.899692670779515!3d-22.02904355589563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b87715a3861de3%3A0x77f67c435cd12205!2sElemento%20RH!5e0!3m2!1spt-BR!2sbr!4v1630347146786!5m2!1spt-BR!2sbr"
                     style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
@@ -1731,172 +1609,6 @@
     <!--====== Contact Section start ======-->
 
 
-    <!--====== Footer Part Start ======-->
-    <footer class="grey-bg-footer">
-        <div class="container">
-            <div class="footer-widget">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-5 order-1">
-                        <div class="widget site-info-widget">
-                            <div class="footer-logo">
-                                <img src="assets/img/logo-3.png" alt="Finsa">
-                            </div>
-                            <p>Há 7 anos conectamos os melhores talentos às mais importantes oportunidades do interior do país.</p>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-sm-7 order-2">
-                        <div class="widget newsletter-widget">
-                            <h4 class="widget-title">Inscreva-se para receber nossos insights sobre gestão de pessoas e carreiras no seu e-mail!</h4>
-                            <div class="newsletter-form">
-                                <form action="#">
-                                    <input type="email" placeholder="Seu melhor e-mail">
-                                    <button type="submit" class="main-btn">Cadastrar</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 order-3">
-                        <div class="widget nav-widget">
-                            <h4 class="widget-title">Candidatos</h4>
-                            <ul>
-                                <li><a href="#">Cadastre seu currículo</a></li>
-                                <li><a href="#">Dúvidas</a></li>
-                                <li><a href="#">Outras informações</a></li>
-                                <li><a href="#">Contato</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 order-lg-4 order-5">
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="widget nav-widget">
-                                    <h4 class="widget-title">Empresas</h4>
-                                    <ul>
-                                        <li><a href="#">Pesquisas</a></li>
-                                        <li><a href="#">Soluções</a></li>
-                                        <li><a href="#">Outras informações</a></li>
-                                        <li><a href="#">Contato</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 order-lg-5 order-6">
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="widget contact-widget">
-                                    <h4 class="widget-title">Entre em contato</h4>
-                                    <ul class="contact-infos">
-                                        <li>
-                                            <a href="tel:+551634196096">
-                                                <i class="far fa-phone"></i>
-                                                (16) 3419-6096
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="tel:+5516993951240">
-                                                <i class="far fa-phone"></i>
-                                                (16) 99395-1240
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="mailto: negocios@grupoelementorh.com.br">
-                                                <i class="far fa-envelope-open"></i>
-                                                negocios@grupoelementorh.com.br
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-4 col-sm-6 order-lg-5 order-4">
-                        <div class="widget insta-feed-widget">
-                            <h4 class="widget-title">Follow Instagram</h4>
-                            <div class="insta-images">
-                                <div class="insta-img" style="background-image: url(assets/img/instagram/01.jpg);">
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="insta-img" style="background-image: url(assets/img/instagram/02.jpg);">
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="insta-img" style="background-image: url(assets/img/instagram/03.jpg);">
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="insta-img" style="background-image: url(assets/img/instagram/04.jpg);">
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="insta-img" style="background-image: url(assets/img/instagram/05.jpg);">
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="insta-img" style="background-image: url(assets/img/instagram/06.jpg);">
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <p class="copyright-text">
-                    <span><a href="#">Elemento RH</a>. Todos os direitos reservados 2021</span>
-                    <!-- <span>All Right Reserved Design By Example</span> -->
-                </p>
-
-                <a href="#" class="back-to-top"><i class="far fa-angle-up"></i></a>
-            </div>
-        </div>
-
-        <!-- Lines -->
-        <img src="assets/img/lines/09.png" alt="line-shape" class="line-three">
-        <img src="assets/img/lines/10.png" alt="line-shape" class="line-four">
-    </footer>
-    <!--====== Footer Part end ======-->
-
-
-
-
-    <!--====== jquery js ======-->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <!--====== Bootstrap js ======-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <!--====== Slick js ======-->
-    <script src="assets/js/slick.min.js"></script>
-    <!--====== Isotope js ======-->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!--====== Magnific Popup js ======-->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!--====== inview js ======-->
-    <script src="assets/js/jquery.inview.min.js"></script>
-    <!--====== counterup js ======-->
-    <script src="assets/js/jquery.countTo.js"></script>
-    <!--====== easy PieChart js ======-->
-    <script src="assets/js/jquery.easypiechart.min.js"></script>
-    <!--====== Jquery Ui ======-->
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <!--====== Wow JS ======-->
-    <script src="assets/js/wow.min.js"></script>
-    <!--====== Main js ======-->
-    <script src="assets/js/main.js"></script>
-</body>
-
-</html>
+<?php
+    require 'requires/footer.html';
+?>
