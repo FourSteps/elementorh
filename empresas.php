@@ -89,12 +89,12 @@
                                 <h3>Employer branding</h3>
                             </li>
                             <p>
-                                Sabe quando você realiza um processo seletivo e, dentre tantos candidatos, você enfrenta muita dificuldade em encontrar algum que esteja alinhado ao fit cultural da sua empresa? Essa é uma das maiores dificuldades das empresas na atualidade, atrair e reter profissionais talentosos, ou seja, aqueles colaboradores diferenciados que ocuparão cargos estratégicos.
+                                Sabe quando você realiza um processo seletivo e, dentre tantos candidatos, você enfrenta muita dificuldade em encontrar algum que esteja alinhado ao fit cultural da sua empresa? Essa é uma das maiores dificuldades das empresas na atualidade, atrair e reter profissionais talentosos, ou seja, aqueles colaboradores diferenciados que ocuparão cargos estratégicos.   
                                 <br>
-                                Quando a percepção de marca é potencializada, agrega-se mais valor a ela. Sabemos que, para algumas posições, o tempo de contratação pode chegar até 3 meses. E, quando os anúncios de vaga são construídos de maneira assertiva e direcionados para o target ideal, sua empresa economiza recursos, atingindo aqueles que realmente estão interessados na sua empresa ou vaga.
-                                Então, ter uma estratégia de recrutamento acelera, e muito, o preenchimento da vaga. Afinal, que organização tem reputação melhor do que aquela defendida pelos próprios colaboradores? Isso desperta a atenção do público e também da concorrência. 
+                                Quando a percepção de marca é potencializada, agrega-se mais valor a ela. Sabemos que, para algumas posições, o tempo de contratação pode chegar até 3 meses. E, quando os anúncios de novas oportunidades são construídos de maneira assertiva e direcionados para o target ideal, sua empresa economiza recursos, atingindo aqueles que realmente estão interessados na sua empresa ou posição. Então, ter uma estratégia de recrutamento acelera, e muito, o preenchimento do cargo. Afinal, que organização tem reputação melhor do que aquela defendida pelos próprios colaboradores? Isso desperta a atenção do público e também da concorrência.
                                 <br>
                                 Através de um programa de parceria com universidades e centros de capacitação, promovemos uma rede de relacionamentos através de eventos, pesquisas, palestras e co-criação de soluções com os nossos clientes. Atuamos desde o diagnóstico ao planejamento de ações de marketing para criar valor baseado nas qualidades da sua empresa, atrair os talentos que acreditam na missão da organização e em seu papel dentro dela, de forma a aumentar significativamente a assertividade do processo e valorizar a cultura organizacional.
+
                             </p>
                             <br>
                             <div style="text-align: center;">

@@ -65,7 +65,7 @@
                             <div class="latest-post-box-two">
                                 <div class="post-thumb-wrap">
                                     <div class="post-thumb bg-img-c"
-                                        style="background-image: url(assets/img/latest-post/02.jpg);">
+                                        style="background-image: url(assets/images/ELEMENTORH_QUADROS_INICIAIS_DICAS_CARREIRA.png);">
                                     </div>
                                 </div>
                                 <div class="post-desc">
@@ -77,7 +77,7 @@
                             <div class="latest-post-box-two">
                                 <div class="post-thumb-wrap">
                                     <div class="post-thumb bg-img-c"
-                                        style="background-image: url(assets/img/latest-post/03.jpg);">
+                                        style="background-image: url(assets/images/ELEMENTORH_QUADROS_INICIAIS_OPORTUNIDADES.png);">
                                     </div>
                                 </div>
                                 <div class="post-desc">
@@ -89,7 +89,7 @@
                             <div class="latest-post-box-two">
                                 <div class="post-thumb-wrap">
                                     <div class="post-thumb bg-img-c"
-                                        style="background-image: url(assets/img/latest-post/04.jpg);">
+                                        style="background-image: url(assets/images/ELEMENTORH_QUADROS_INICIAIS_CADASTRAR_CURRICULO.png);">
                                     </div>
                                 </div>
                                 <div class="post-desc">
@@ -239,19 +239,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="widget cta-widget" style="background-image: url(assets/img/sidebar/cta.jpg);">
+                    <div class="widget cta-widget" style="background-image: url(assets/images/QUADROS_ELEMENTORH_blog.png);">
                         <h4 class="title">Conheça nosso blog!</h4>
                         <a href="#" class="main-btn">Ver blog!</a>
                     </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="widget cta-widget" style="background-image: url(assets/img/sidebar/cta.jpg);">
+                    <div class="widget cta-widget" style="background-image: url(assets/images/QUADROS_ELEMENTORH_instagram.png);">
                         <h4 class="title">Siga no instagram</h4>
                         <a href="https://www.instagram.com/elementorhoficial/" class="main-btn">Seguir</a>
                     </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="widget cta-widget" style="background-image: url(assets/img/sidebar/cta.jpg);">
+                    <div class="widget cta-widget" style="background-image: url(assets/images/QUADROS_ELEMENTORH_youtube.png);">
                         <h4 class="title">Acompanhe no YouTube</h4>
                         <a href="https://www.youtube.com/channel/UCzvPTwJgdgyYZHTdMmzyvcQ" class="main-btn">Assistir</a>
                     </div>
