@@ -1,10 +1,10 @@
 <?php
     require 'requires/header.html';
 
-    // $feed = file_get_contents('https://blog.assinadoc.com/feed/');
-    // $feed = str_replace('<media:', '<', $feed);
+    $feed = file_get_contents('http://blog.elementorh.com.br/feed/');
+    $feed = str_replace('<media:', '<', $feed);
 
-    // $rss = simplexml_load_string($feed);
+    $rss = simplexml_load_string($feed);
 
     // var_dump("<pre>");
     // var_dump($rss->channel->item[1]);
@@ -14,6 +14,17 @@
     // echo $rss->channel->item[1]->title[0];
     // echo $rss->channel->item[1]->title[0];
     // var_dump("</pre>");
+
+    $date = date_create($rss->channel->item[1]->pubDate[0]);
+    $rss->channel->item[1]->pubDate[0] = date_format($date, 'd/m/Y');
+    $date = date_create($rss->channel->item[2]->pubDate[0]);
+    $rss->channel->item[2]->pubDate[0] = date_format($date, 'd/m/Y');
+    $date = date_create($rss->channel->item[3]->pubDate[0]);
+    $rss->channel->item[3]->pubDate[0] = date_format($date, 'd/m/Y');
+    $date = date_create($rss->channel->item[4]->pubDate[0]);
+    $rss->channel->item[4]->pubDate[0] = date_format($date, 'd/m/Y');
+    $date = date_create($rss->channel->item[5]->pubDate[0]);
+    $rss->channel->item[5]->pubDate[0] = date_format($date, 'd/m/Y');
 
 ?>
 
@@ -214,7 +225,7 @@
                 </div>
                 <div class="col-lg-5 col-md-4">
                     <div class="view-moore-btn text-md-right mt-30 mt-md-0">
-                        <a href="#" class="main-btn">Ver tudo</a>
+                        <a href="http://blog.elementorh.com.br/" class="main-btn">Ver tudo</a>
                     </div>
                 </div>
             </div>
@@ -223,166 +234,112 @@
             <div class="container-fluid container-1600">
                 <div class="latest-post-loop loop-two">
                     <div class="row" id="latestPostSlider">
+
                         <div class="col-lg-3 col-md-3">
                             <div class="latest-post-box-two">
                                 <div class="post-thumb-wrap">
                                     <div class="post-thumb bg-img-c"
                                         style="background-image: url(assets/img/latest-post/01.jpg);">
                                     </div>
-                                    <span class="post-date"><i class="far fa-calendar-alt"></i>25 de agosto</span>
+                                    <span class="post-date"><i class="far fa-calendar-alt"></i><?php echo $rss->channel->item[1]->pubDate[0]; ?></span>
                                 </div>
                                 <div class="post-desc">
                                     <h3 class="title">
-                                        <a href="#">
-                                            Como se comportar em dinâmicas de grupo
+                                        <a href="<?php echo $rss->channel->item[1]->link[0]; ?>">
+                                            <?php echo $rss->channel->item[1]->title[0]; ?>
                                         </a>
                                     </h3>
-                                    <a href="#" class="post-link">
+                                    <a href="<?php echo $rss->channel->item[1]->link[0]; ?>" class="post-link">
                                         Ler mais <i class="far fa-long-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3">
-                            <div class="latest-post-box-two">
-                                <div class="post-thumb-wrap">
-                                    <div class="post-thumb bg-img-c"
-                                        style="background-image: url(assets/img/latest-post/02.jpg);">
-                                    </div>
-                                    <span class="post-date"><i class="far fa-calendar-alt"></i>25/09/2021</span>
-                                </div>
-                                <div class="post-desc">
-                                    <h3 class="title">
-                                        <a href="#">
-                                            Como se comportar em dinâmicas de grupo
-                                        </a>
-                                    </h3>
-                                    <a href="#" class="post-link">
-                                        Ler mais <i class="far fa-long-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3">
-                            <div class="latest-post-box-two">
-                                <div class="post-thumb-wrap">
-                                    <div class="post-thumb bg-img-c"
-                                        style="background-image: url(assets/img/latest-post/03.jpg);">
-                                    </div>
-                                    <span class="post-date"><i class="far fa-calendar-alt"></i>25 de agosto</span>
-                                </div>
-                                <div class="post-desc">
-                                    <h3 class="title">
-                                        <a href="#">
-                                            Como se comportar em dinâmicas de grupo
-                                        </a>
-                                    </h3>
-                                    <a href="#" class="post-link">
-                                        Ler mais <i class="far fa-long-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3">
-                            <div class="latest-post-box-two">
-                                <div class="post-thumb-wrap">
-                                    <div class="post-thumb bg-img-c"
-                                        style="background-image: url(assets/img/latest-post/04.jpg);">
-                                    </div>
-                                    <span class="post-date"><i class="far fa-calendar-alt"></i>25/09/2021</span>
-                                </div>
-                                <div class="post-desc">
-                                    <h3 class="title">
-                                        <a href="#">
-                                            Como se comportar em dinâmicas de grupo
-                                        </a>
-                                    </h3>
-                                    <a href="#" class="post-link">
-                                        Ler mais <i class="far fa-long-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="col-lg-3 col-md-3">
                             <div class="latest-post-box-two">
                                 <div class="post-thumb-wrap">
                                     <div class="post-thumb bg-img-c"
                                         style="background-image: url(assets/img/latest-post/01.jpg);">
                                     </div>
-                                    <span class="post-date"><i class="far fa-calendar-alt"></i>25 de agosto</span>
+                                    <span class="post-date"><i class="far fa-calendar-alt"></i><?php echo $rss->channel->item[2]->pubDate[0]; ?></span>
                                 </div>
                                 <div class="post-desc">
                                     <h3 class="title">
-                                        <a href="#">
-                                            Como se comportar em dinâmicas de grupo
+                                        <a href="<?php echo $rss->channel->item[2]->link[0]; ?>">
+                                            <?php echo $rss->channel->item[2]->title[0]; ?>
                                         </a>
                                     </h3>
-                                    <a href="#" class="post-link">
+                                    <a href="<?php echo $rss->channel->item[2]->link[0]; ?>" class="post-link">
                                         Ler mais <i class="far fa-long-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-lg-3 col-md-3">
                             <div class="latest-post-box-two">
                                 <div class="post-thumb-wrap">
                                     <div class="post-thumb bg-img-c"
-                                        style="background-image: url(assets/img/latest-post/02.jpg);">
+                                        style="background-image: url(assets/img/latest-post/01.jpg);">
                                     </div>
-                                    <span class="post-date"><i class="far fa-calendar-alt"></i>25/09/2021</span>
+                                    <span class="post-date"><i class="far fa-calendar-alt"></i><?php echo $rss->channel->item[3]->pubDate[0]; ?></span>
                                 </div>
                                 <div class="post-desc">
                                     <h3 class="title">
-                                        <a href="#">
-                                            Como se comportar em dinâmicas de grupo
+                                        <a href="<?php echo $rss->channel->item[3]->link[0]; ?>">
+                                            <?php echo $rss->channel->item[3]->title[0]; ?>
                                         </a>
                                     </h3>
-                                    <a href="#" class="post-link">
+                                    <a href="<?php echo $rss->channel->item[3]->link[0]; ?>" class="post-link">
                                         Ler mais <i class="far fa-long-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-lg-3 col-md-3">
                             <div class="latest-post-box-two">
                                 <div class="post-thumb-wrap">
                                     <div class="post-thumb bg-img-c"
-                                        style="background-image: url(assets/img/latest-post/03.jpg);">
+                                        style="background-image: url(assets/img/latest-post/01.jpg);">
                                     </div>
-                                    <span class="post-date"><i class="far fa-calendar-alt"></i>25 de agosto</span>
+                                    <span class="post-date"><i class="far fa-calendar-alt"></i><?php echo $rss->channel->item[4]->pubDate[0]; ?></span>
                                 </div>
                                 <div class="post-desc">
                                     <h3 class="title">
-                                        <a href="#">
-                                            Como se comportar em dinâmicas de grupo
+                                        <a href="<?php echo $rss->channel->item[4]->link[0]; ?>">
+                                            <?php echo $rss->channel->item[4]->title[0]; ?>
                                         </a>
                                     </h3>
-                                    <a href="#" class="post-link">
+                                    <a href="<?php echo $rss->channel->item[4]->link[0]; ?>" class="post-link">
                                         Ler mais <i class="far fa-long-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-lg-3 col-md-3">
                             <div class="latest-post-box-two">
                                 <div class="post-thumb-wrap">
                                     <div class="post-thumb bg-img-c"
-                                        style="background-image: url(assets/img/latest-post/04.jpg);">
+                                        style="background-image: url(assets/img/latest-post/01.jpg);">
                                     </div>
-                                    <span class="post-date"><i class="far fa-calendar-alt"></i>25/09/2021</span>
+                                    <span class="post-date"><i class="far fa-calendar-alt"></i><?php echo $rss->channel->item[5]->pubDate[0]; ?></span>
                                 </div>
                                 <div class="post-desc">
                                     <h3 class="title">
-                                        <a href="#">
-                                            Como se comportar em dinâmicas de grupo
+                                        <a href="<?php echo $rss->channel->item[5]->link[0]; ?>">
+                                            <?php echo $rss->channel->item[5]->title[0]; ?>
                                         </a>
                                     </h3>
-                                    <a href="#" class="post-link">
+                                    <a href="<?php echo $rss->channel->item[5]->link[0]; ?>" class="post-link">
                                         Ler mais <i class="far fa-long-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

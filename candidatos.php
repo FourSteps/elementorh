@@ -241,7 +241,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="widget cta-widget" style="background-image: url(assets/images/QUADROS_ELEMENTORH_blog.png);">
                         <h4 class="title">Conheça nosso blog!</h4>
-                        <a href="#" class="main-btn">Ver blog!</a>
+                        <a href="http://blog.elementorh.com.br/" class="main-btn">Ver blog!</a>
                     </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
